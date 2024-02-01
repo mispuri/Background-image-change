@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Background Change</title>
+    <link rel="stylesheet" href="./app/css/main.css" />
+    <link rel="shortcut icon" href="./app/img/car icon.png" />
+    <script
+      src="https://kit.fontawesome.com/a5c52835dd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-box">
+        <img
+          src="./app/img/car wthiout background.png"
+          alt="car mustang"
+          width="100%"
+        />
+        <!-- image with background -->
+        <div class="img-wrap">
+          <img src="./app/img/car.webp" alt="car mustang" id="originalImg" />
+        </div>
+
+        <span id="line">
+          <i class="fa-solid fa-left-right arrow"></i>
+        </span>
+      </div>
+    </div>
+    <script src="./app/js/index.js"></script>
+  </body>
+</html>
